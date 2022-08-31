@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+    color: hsl(0, 0%, 100%);  
+    
+}
+
+h1 {
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.card {
+    border-radius: 20px;
+}
+.bi {
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(213, 19%, 18%);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.card {
+    background-color: hsl(216, 12%, 8%); 
+}
+
+.dot {
+    display: inline-block;
+    box-sizing: initial;
+    background-color: hsl(213, 19%, 18%);
+    padding: 5px;
+    border-radius: 100%;
+    border: none;
+    text-align: center;
+    width: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    margin: 15px;
+}
+
+.btn {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    width: 100%;
+    border-radius: 30px;
+    margin-top: 20px;
+    letter-spacing: 0.2em;
+}
+
+
+.attribution { 
+    font-size: 11px; text-align: center;
+ }
+.attribution a {
+     color: hsl(228, 45%, 44%);
+     }
