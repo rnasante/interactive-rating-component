@@ -37,6 +37,14 @@ h1 {
     margin: 15px;
 }
 
+.dot:hover {
+    background-color: hsl(25, 97%, 53%);
+}
+
+.dot:active {
+    background-color: hsl(217, 12%, 63%);
+}
+
 .btn {
     background-color: hsl(25, 97%, 53%);
     color: white;
@@ -44,6 +52,11 @@ h1 {
     border-radius: 30px;
     margin-top: 20px;
     letter-spacing: 0.2em;
+}
+
+.btn:hover {
+    color: hsl(25, 97%, 53%);
+    background-color: white;
 }
 
 
