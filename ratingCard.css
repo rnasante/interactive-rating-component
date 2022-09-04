@@ -9,9 +9,31 @@ h1 {
     margin-top: 20px;
 }
 
+#svg2 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#rate {
+    margin-left: auto;
+    margin-right: auto;
+    color: hsl(25, 97%, 53%);
+    border: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: fit-content;
+    border-radius: 15px;
+    background-color: hsl(213, 19%, 18%);
+}
+
 .card {
     border-radius: 20px;
 }
+
+#cbody {
+    text-align: center;
+}
+
 .bi {
     color: hsl(25, 97%, 53%);
     background-color: hsl(213, 19%, 18%);
