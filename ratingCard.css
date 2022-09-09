@@ -1,38 +1,114 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+body{
+    font-family: "Overpass";
+    font-size: 15px;
     background-color: black;
-    color: hsl(0, 0%, 100%);  
-    
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
 
-h1 {
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.container, .thank-you {
+       background-color: hsl(216, 12%, 8%);
+       padding: 30px;
+       border-radius: 20px;
+       
+}
+
+
+.container h1 {
     font-weight: 700;
     margin-top: 20px;
 }
 
-#svg2 {
+.container ul {
+     list-style-type: none; 
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+.container ul li button {
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 50%;
+    border: none;
+    width: 2rem;
+    height: 2rem;
+    padding-top: 0.2rem;
+    color: white;
+    align-items: center;
+}
+
+.container ul li button:hover {
+    background-color: hsl(25, 97%, 53%);
+}
+
+.container ul li button:focus {
+    background-color: hsl(217, 12%, 63%);
+}
+
+#btn {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    width: 100%;
+    border-radius: 30px;
+    border: none;
+    margin-top: 20px;
+    padding: 10px;
+    letter-spacing: 0.2rem;
+}
+
+#btn:hover {
+    color: hsl(25, 97%, 53%);
+    background-color: white;
+}
+
+/* #svg2 {
     margin-top: 20px;
     margin-bottom: 30px;
-}
+} */
 
-#rate {
+.thank-you svg {
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    color: hsl(25, 97%, 53%);
-    border: none;
-    padding-left: 15px;
-    padding-right: 15px;
-    width: fit-content;
-    border-radius: 15px;
-    background-color: hsl(213, 19%, 18%);
 }
 
-.card {
-    border-radius: 20px;
-}
-
-#cbody {
+.thank-you h2 {
     text-align: center;
 }
+
+.hidden {
+    display: none;
+}
+
+#rating {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    color: hsl(25, 97%, 53%);
+    border: none;
+    padding-top: 0.2rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: fit-content; 
+    border-radius: 30px;
+    background-color: hsl(213, 19%, 18%);
+    font-size: 12px;
+
+}
+
 
 .bi {
     color: hsl(25, 97%, 53%);
@@ -41,45 +117,6 @@ h1 {
     border-radius: 50%;
 }
 
-.card {
-    background-color: hsl(216, 12%, 8%); 
-}
-
-.dot {
-    display: inline-block;
-    box-sizing: initial;
-    background-color: hsl(213, 19%, 18%);
-    padding: 5px;
-    border-radius: 100%;
-    border: none;
-    text-align: center;
-    width: 20px;
-    line-height: 20px;
-    font-size: 12px;
-    margin: 15px;
-}
-
-.dot:hover {
-    background-color: hsl(25, 97%, 53%);
-}
-
-.dot:active {
-    background-color: hsl(217, 12%, 63%);
-}
-
-.btn {
-    background-color: hsl(25, 97%, 53%);
-    color: white;
-    width: 100%;
-    border-radius: 30px;
-    margin-top: 20px;
-    letter-spacing: 0.2em;
-}
-
-.btn:hover {
-    color: hsl(25, 97%, 53%);
-    background-color: white;
-}
 
 
 .attribution { 
